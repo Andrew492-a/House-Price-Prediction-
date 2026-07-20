@@ -1,0 +1,54 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual Environment
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment Variables
+.env
+.env.*
+
+# VS Code
+.vscode/
+
+# Models
+*.pkl
+*.joblib
+
+# Logs
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Build
+build/
+dist/
+
+# Testing
+.pytest_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Node
+node_modules/
+
+# React
+frontend/dist/
+
+# Temporary
+*.tmp
+*.bak
