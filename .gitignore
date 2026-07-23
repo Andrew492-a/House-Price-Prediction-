@@ -1,15 +1,16 @@
-# =========================
+# ==================================================
 # Python
-# =========================
+# ==================================================
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
 *.so
 
-# Virtual Environment
+# Virtual Environments
 .venv/
 venv/
+env/
 
 # Jupyter
 .ipynb_checkpoints/
@@ -18,42 +19,60 @@ venv/
 .env
 .env.*
 
-# VS Code
+# IDE
 .vscode/
+.idea/
 
-# Models
+# ==================================================
+# Machine Learning
+# ==================================================
+
+# Trained Models
 *.pkl
 *.joblib
+*.h5
+*.pt
+*.pth
+
+# Dataset Files
+*.csv
+*.zip
+*.xlsx
+
+# Local data folder
+data/
+notebooks/data/
+
 
 # Logs
 *.log
 
-# OS Files
-.DS_Store
-Thumbs.db
-
-# Build
-build/
-dist/
-
+# ==================================================
 # Testing
+# ==================================================
 .pytest_cache/
-
-# Coverage
 .coverage
 htmlcov/
 
-# Node
-node_modules/
+# ==================================================
+# Build
+# ==================================================
+build/
+dist/
+*.egg-info/
 
-# React
+# ==================================================
+# OS
+# ==================================================
+.DS_Store
+Thumbs.db
+
+# ==================================================
+# Node / Frontend
+# ==================================================
+node_modules/
 frontend/dist/
 
 # Temporary
 *.tmp
 *.bak
-
-# Datasets
-notebooks/data/
-*.csv
-*.zip

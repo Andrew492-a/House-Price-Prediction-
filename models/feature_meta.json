@@ -1,0 +1,50 @@
+{
+  "best_model": "Random Forest",
+  "test_r2": 0.9274,
+  "test_mae_inr": 859589,
+  "test_rmse_inr": 2602272,
+  "numerical_features": [
+    "area_sqft",
+    "log_area",
+    "bhk",
+    "bathroom",
+    "balcony",
+    "floor_num",
+    "total_floors",
+    "floor_ratio",
+    "is_top_floor",
+    "bath_per_bhk",
+    "area_per_bhk",
+    "bhk_x_bath"
+  ],
+  "cat_ohe_features": [
+    "Furnishing",
+    "Transaction",
+    "facing"
+  ],
+  "cat_te_features": [
+    "location_grouped",
+    "Ownership"
+  ],
+  "all_features": [
+    "area_sqft",
+    "log_area",
+    "bhk",
+    "bathroom",
+    "balcony",
+    "floor_num",
+    "total_floors",
+    "floor_ratio",
+    "is_top_floor",
+    "bath_per_bhk",
+    "area_per_bhk",
+    "bhk_x_bath",
+    "Furnishing",
+    "Transaction",
+    "facing",
+    "location_grouped",
+    "Ownership"
+  ],
+  "target_transform": "log1p",
+  "prediction_inverse": "expm1"
+}
